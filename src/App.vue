@@ -1,6 +1,12 @@
 <template>
   <my-header />
- 
+  <div class = "container-fluic">
+    <div class = "row justify-content-center">
+      <div class = "col-md-10  co-lg-7">
+       <router-view /> 
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
