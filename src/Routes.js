@@ -2,8 +2,8 @@ import{createRouter, createWebHistory} from 'vue-router';
 
 import Home from "./components/Home.vue";
 import Login from "./components/Login.vue";
-import BookDetails from "./components/BookDetails.vue";
 import Books from "./components/Books.vue";
+import BookDetails from "./components/BookDetails.vue";
 import NotFound from "./components/NotFound.vue";
 import BookCheckout from "./components/BookCheckout.vue";
 import Signup from "./components/Signup.vue";

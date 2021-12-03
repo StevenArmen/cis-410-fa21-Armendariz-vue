@@ -19,7 +19,7 @@
             <router-link
               class="nav-link active"
               aria-current="page"
-              to="/books"
+              to="/Books"
               >Books</router-link
             >
           </li>
