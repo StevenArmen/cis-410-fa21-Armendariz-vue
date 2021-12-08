@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import axios from "axios"
 
-import myRouter from "./routes.js"
+import myRouter from "./Routes.js"
 import theStore from "./store.js"
 axios.defaults.baseURL = "https://cis410-fa21-arevalo-api.azurewebsites.net"
 
