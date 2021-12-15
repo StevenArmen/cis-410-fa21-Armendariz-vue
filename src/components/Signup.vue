@@ -83,7 +83,7 @@ export default{
       .post("/customers",myFormData)
       .then((myResponse)=>{
         console.log("the response", myResponse);
-         this.$router.replace("/login");
+         this.$router.replace("/login?signupsuccess=true");
         })
         .catch((myError) => {
           if (myError.response.status === 409) {

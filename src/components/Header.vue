@@ -59,3 +59,23 @@
   </nav>
 </template>
 
+<script>
+export default {
+  computed: {
+    auth() {
+      return this.$store.state.token;
+    },
+  },
+  methods: {
+    onLogout() {
+      this.$store.dispatch("logout");
+    },
+  },
+};
+</script>
+
+<style scoped>
+.navbar-nav {
+  align-items: center;
+}
+</style>

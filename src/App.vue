@@ -1,6 +1,6 @@
 <template>
   <my-header />
-  <div class = "container-fluic">
+  <div class = "container-fluid">
     <div class = "row justify-content-center">
       <div class = "col-md-10  co-lg-7">
        <router-view /> 
@@ -16,8 +16,10 @@ export default {
   components: {
     "my-header": Header,
   },
- 
-  
+  created() {
+    this.$store.dispatch("getBooks");
+    this.$store.dispatch("tryAutoLogin");
+  },
 };
 </script>
 
